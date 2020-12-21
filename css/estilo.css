@@ -1,0 +1,96 @@
+.menu{
+    padding: 10px;
+    background: #750F21;
+    font-size: 20px;
+    border-radius: 20px;
+}
+a:link {
+    color: black;
+  }
+a:visited {
+    color: black;
+  }
+a:hover {
+    color: grey;
+  }
+a:active {
+    color: grey;
+  }
+.linha{
+      
+      height: 10px;
+      background-color: grey;
+  }
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+    height: 2000px;
+}
+#divprincipal{
+    padding-right: 50px;
+    margin-left: 350px;
+}
+
+#cabecalho{
+    background: #BA1330;
+}
+
+.bordaad{
+    text-align: center;
+    float: left;
+    border: solid 2px;
+    padding: 3px;
+    margin: 2px;
+}
+
+.logocabecalho{
+    float: left;
+}
+
+#divBusca{
+    float: right;
+    background-color: white;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+    position: absolute;
+    top:90px;
+    right: 100px ;
+  }
+
+#busca{
+    float:left;
+    background-color:transparent;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+#video{
+        align:center;
+        padding-left: 50px;
+        padding-right: 50px;
+  }
+
+.subdiv{
+    margin-right:33%;:
+}
+
+.publicado{
+    color:grey;
+    margin-top: 10px;
+}
+
+#copyright{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #BA1330;
+}
+copyright h4{
+    margin-top: 0px;
+}
