@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ElseSul - Ferramentas</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/scripts.js"></script>
+        <link rel="shortcut icon" href="img/favicon.ico"/>
+    </head>
+    <body>
+        <div>
+            <div id="cabecalho">
+                <div><img style="margin: 10px;" height="200px" src="img/elsesul.png"></div>
+                <div id="divBusca"><input id="busca" placeholder="Buscar... (Em manutenção)" type="text" name="busca"><input style="margin-top: 5px;" height="25" type="image" src="img/pesquisa.png" onclick="pesquisa();"></div>
+                <div><a class="menu" href="menu.html">Menu Principal</a> <a class="menu" href="manual.html">Manual das Ferramentas</a> <a class="menu" href="ferramenta.html">Ferramentas</a> <a class="menu" href="contato.html">Contato</a> </div>
+            </div>
+            <div class="linha"></div>
+        </div>
+        <div class="bordaad">Propaganda<br><a href="https://www.cyberpunk.net/br/pt-br/" target="_blank"><img src="img/propaganda.gif"></a></div>
+        <div id="divprincipal">
+                <h1>Ferramentas</h1>
+            <hr>
+            <h2>Média Aritmética Simples</h2>
+            <hr class="subdiv">
+            <h4>
+                <form action="javascript:mediaaritmetica();">
+                <input type="text" name="aritmeticaum" id="aritmeticaum" required>
+                <input type="text" name="aritmeticadois" id="aritmeticadois" required>
+                <input type="text" name="aritmeticatres" id="aritmeticatres" required>
+                =
+                <input type="text" name="aritmeticatotal" id="aritmeticatotal" value=" " readonly>
+                <br><br>
+                <input type="submit" value=" Obter Média Aritmética">
+                </form>
+                <br><br>
+                <input type="button" onclick="mediaaritmeticavarios();"  value=" Média Aritmética Com Mais Valores">
+            </h4>
+            <h4 class="publicado">Mais sobre Média Aritmética em: <a href="https://pt.wikipedia.org/wiki/M%C3%A9dia_aritm%C3%A9tica" target="_blank">Wikipédia - Média Aritmética</a></h4>
+            <hr>
+            <h2>Calculadora</h2>
+            <hr class="subdiv">
+            <h4>
+                <input type="text" name="calcum" id="calcum" value="0" />
+                <input type="text" name="calcdois" id="calcdois" value="0">
+                =
+                <input type="text" name="calcresultado" id="calcresultado" value=" " size="30">
+                <br><br>
+                <input type="button" onclick="soma();" value="+">
+                <input type="button" onclick="subtracao();" value="-">
+                <input type="button" onclick="multiplicacao();" value="*">
+                <input type="button" onclick="divisao();" value="/">
+            </h4>
+        </div>
+        <br><hr>
+        <div id="copyright">
+            <h4>@Copyright - Lucas Aguiar Mello - 2020. <br>
+            Website desenvolvido na disciplina de CPW do curso de Ciência da Computação.</h4>
+        </div>
+    </body>
+</html>
