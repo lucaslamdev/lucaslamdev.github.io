@@ -3,9 +3,11 @@ body {
 }
 
 #cabecalho {
+  width: 100%;
   text-align: center;
 }
 
 #rodape {
+  width: 100%;
   text-align: center;
 }
