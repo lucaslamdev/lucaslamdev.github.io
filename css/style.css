@@ -1,5 +1,7 @@
 body {
-  background-color: lightblue;
+  margin: 0px;
+  background-color: blue;
+  height: 2000px;
 }
 
 #cabecalho {
